@@ -11,7 +11,7 @@
 9-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:5:5-19:19
+11-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,22 +25,29 @@
 17-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="id.go.kemenkeu.anggaran.bima.MainActivity" >
-20-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:14:17-69
-22-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:16:17-77
-24-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="id.go.kemenkeu.anggaran.bima.LoginActivity" />
+21-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:12:9-60
+21-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:12:19-48
+22        <activity
+22-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:13:9-19:20
+23            android:name="id.go.kemenkeu.anggaran.bima.SplashActivity"
+23-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:13:19-49
+24            android:theme="@style/SplashScreen" >
+24-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:13:50-85
+25            <intent-filter>
+25-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:15:17-69
+26-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:17:17-77
+28-->/Users/master/Documents/Tutorial/Android/BiMA/app/src/main/AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>
