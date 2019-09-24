@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -17,8 +19,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="id.go.kemenkeu.anggaran.bima.LoginActivity" />
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="id.go.kemenkeu.anggaran.bima.MainActivity" />
+        <activity
+            android:name="id.go.kemenkeu.anggaran.bima.ReLoginActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="id.go.kemenkeu.anggaran.bima.LoginActivity"
+            android:theme="@style/SplashScreen" />
         <activity
             android:name="id.go.kemenkeu.anggaran.bima.SplashActivity"
             android:theme="@style/SplashScreen" >
@@ -28,6 +37,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="id.go.kemenkeu.anggaran.bima.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/user_header" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="30dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.timqi.sectorprogressview.ColorfulRingProgressView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/spv"
+                        app:bgColor="@color/gray"
+                        app:percent="65"
+                        app:fgColorEnd="@color/orangeFlaminggo"
+                        app:fgColorStart="@color/orangeFlaminggo"
+                        app:strokeWidth="9dp"
+                        app:startAngle="0"
+                        android:layout_height="200dp"
+                        android:layout_width="200dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="Prosentase"/>
+                        <TextView
+                            android:id="@+id/dash_prosen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="36sp"
+                            android:textColor="@color/colorAccent"
+                            android:text="65"/>
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/orangeFlaminggo"
+                                    android:textSize="12sp"
+                                    android:text="R"/>
+                                <TextView
+                                    android:id="@+id/dash_rp_real"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/orangeFlaminggo"
+                                    android:text="29.177"/>
+                            </TableRow>
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left"
+                                    android:textSize="12sp"
+                                    android:text="P"/>
+                                <TextView
+                                    android:id="@+id/dash_rp_pagu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:textSize="12sp"
+                                    android:text="116.708"/>
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:tint="@color/colorPrimary"
+                        android:src="@drawable/ic_dash_chat"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5 Chat"
+                        android:textColor="@color/colorPrimary"
+                        android:paddingBottom="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:tint="@color/gray"
+                        android:src="@drawable/ic_dash_notif"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0 Notifikasi"
+                        android:textColor="@color/gray"
+                        android:paddingBottom="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:tint="@color/colorPrimary"
+                        android:src="@drawable/ic_dash_doc"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Dokumen"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>

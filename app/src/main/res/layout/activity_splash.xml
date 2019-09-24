@@ -23,7 +23,7 @@
         android:id="@+id/text_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Budget in Mobile Application"
+        android:text="@string/app_desc"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_revisi"
+        android:icon="@drawable/ic_bima_revisi"
+        android:title="Revisi" />
+    <item
+        android:id="@+id/nav_konsultasi"
+        android:icon="@drawable/ic_bima_konsultasi"
+        android:title="Konsultasi" />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_bima_home"
+        android:title="BiMA" />
+    <item
+        android:id="@+id/nav_otentikasi"
+        android:icon="@drawable/ic_bima_otentikasi"
+        android:title="Otentikasi" />
+    <item
+        android:id="@+id/nav_referensi"
+        android:icon="@drawable/ic_bima_referensi"
+        android:title="Referensi" />
+
+</menu>
