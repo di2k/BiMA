@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="right"
+        android:paddingRight="16dp"
+        android:src="@drawable/slide_b_a19" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="APBN untuk mendorong investasi dan daya saing melalui pembangunan sumber daya manusia" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hal Baru dan Strategis"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Penguatan Bidang Kesehatan melalui Program Penurunan Stunting Terintegrasi" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Penajaman Anggaran Pendidikan" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Penguatan Program Keluarga Harapan" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorAccent"
+                    android:text="Tax Expenditure" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Pooling Fund Bencana Alam" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Percepatan Pembangunan Infrastruktur melalui Skema KPBU" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:layout_width="0dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Percepatan Pembangunan di Tingkat Kelurahan melalui DAU Tambahan" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asumsi Dasar Ekonomi Makro"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:padding="2dp"
+                    android:text="Pertumbuhan Ekonomi (%)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="5,3" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="5,2" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Nilai Tukar Rupiah (Rp/USD)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="15.000" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="14.248" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Inflasi (%)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="3,5" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="3,2" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Harga Minyak (USD/Barel)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="70" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="68" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Suku Bunga SPN (%)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="5,3" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="5,0" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Lifting Minyak (Ribu Barel/Hari)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="775" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="776" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text=" -  " />
+                <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Lifting Gas (Setara Ribu Barel/Hari)" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/orangeFlaminggo"
+                    android:text="1.250" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/yellow"
+                    android:text="1.136" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:gravity="right">
+                <TextView
+                    android:background="@color/orangeFlaminggo"
+                    android:textSize="8sp"
+                    android:text="    "/>
+                <TextView
+                    android:paddingLeft="8dp"
+                    android:textSize="8sp"
+                    android:paddingRight="16dp"
+                    android:text="APBN 2019" />
+                <TextView
+                    android:background="@color/yellow"
+                    android:textSize="8sp"
+                    android:text="    "/>
+                <TextView
+                    android:paddingLeft="8dp"
+                    android:textSize="8sp"
+                    android:text="Outlook 2018" />
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
