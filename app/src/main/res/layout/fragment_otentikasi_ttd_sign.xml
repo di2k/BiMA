@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/sign_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="# 007"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/sign_iddok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingTop="0dp"
+            android:gravity="center"
+            android:text="ID Revisi: 2019.630931.003"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/sign_logo"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:src="@drawable/file_pdf"/>
+
+        <TextView
+            android:id="@+id/sign_nmdok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Surat Usulan Revisi.pdf"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bsre"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:text="Penanda Tangan" />
+        <TextView
+            android:id="@+id/sign_tte_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:gravity="center"
+            android:text="Andrias Hari Prajogo"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/sign_tte_nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="NIK 123456789123456789" />
+        <ImageView
+            android:id="@+id/sign_finger"
+            android:layout_gravity="center"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="55dp"
+            android:src="@drawable/ic_fingerprint_black_24dp"/>
+
+        <TextView
+            android:id="@+id/pro_tte_nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:text="Place your finger on the scanner"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

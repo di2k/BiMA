@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/layoutRelative"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutRelative"
+    android:background="#FAFAFA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -14,14 +15,16 @@
 
             <LinearLayout
                 xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dash_chart"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="30dp"
                 android:paddingTop="50dp"
-                android:paddingBottom="30dp">
+                android:paddingBottom="50dp">
 
                 <RelativeLayout
+                    android:id="@+id/graph_spv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -29,7 +32,7 @@
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/spv"
                         app:bgColor="@color/gray"
-                        app:percent="65"
+                        app:percent="0"
                         app:fgColorEnd="@color/orangeFlaminggo"
                         app:fgColorStart="@color/orangeFlaminggo"
                         app:strokeWidth="9dp"
@@ -58,7 +61,7 @@
                             android:gravity="center"
                             android:textSize="36sp"
                             android:textColor="@color/colorAccent"
-                            android:text="65"/>
+                            android:text="0"/>
                         <TableLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
@@ -78,7 +81,7 @@
                                     android:gravity="right"
                                     android:textSize="12sp"
                                     android:textColor="@color/orangeFlaminggo"
-                                    android:text="29.177"/>
+                                    android:text="0"/>
                             </TableRow>
                             <TableRow>
                                 <TextView
@@ -93,7 +96,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="right"
                                     android:textSize="12sp"
-                                    android:text="116.708"/>
+                                    android:text="0"/>
                             </TableRow>
                         </TableLayout>
                     </LinearLayout>
@@ -107,23 +110,13 @@
                     android:paddingLeft="30dp">
 
                     <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:tint="@color/colorPrimary"
-                        android:src="@drawable/ic_dash_chat"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="5 Chat"
-                        android:textColor="@color/colorPrimary"
-                        android:paddingBottom="10dp"/>
-
-                    <ImageView
+                        android:id="@+id/dash_ico_notif"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:tint="@color/gray"
                         android:src="@drawable/ic_dash_notif"/>
                     <TextView
+                        android:id="@+id/dash_lbl_notif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="0 Notifikasi"
@@ -131,19 +124,74 @@
                         android:paddingBottom="10dp"/>
 
                     <ImageView
+                        android:id="@+id/dash_ico_chat"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:tint="@color/colorPrimary"
-                        android:src="@drawable/ic_dash_doc"/>
+                        android:tint="@color/gray"
+                        android:src="@drawable/ic_dash_chat"/>
                     <TextView
+                        android:id="@+id/dash_lbl_chat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="2 Dokumen"
-                        android:textColor="@color/colorPrimary" />
+                        android:text="0 Chat"
+                        android:textColor="@color/gray"
+                        android:paddingBottom="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/dash_ico_doc"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:tint="@color/gray"
+                        android:src="@drawable/ic_dash_doc"/>
+                    <TextView
+                        android:id="@+id/dash_lbl_doc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0 Dokumen"
+                        android:textColor="@color/gray" />
 
                 </LinearLayout>
 
             </LinearLayout>
+            <ProgressBar
+                android:id="@+id/loading"
+                android:layout_marginTop="125dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/slider_pager"
+                    android:overScrollMode="never"
+                    android:clipToPadding="false"
+                    android:foregroundGravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp">
+
+                </androidx.viewpager.widget.ViewPager>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/indicator"
+                    app:tabBackground="@drawable/indicator_selector"
+                    app:tabIndicatorHeight="0dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/slider_card">
+
+                </com.google.android.material.tabs.TabLayout>
+
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </RelativeLayout>

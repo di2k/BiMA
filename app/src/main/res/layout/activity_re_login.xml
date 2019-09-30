@@ -62,8 +62,8 @@
             android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="63dp"
-            android:layout_height="62dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:layout_gravity="center"
             android:layout_marginTop="115dp"
             android:src="@drawable/ic_fingerprint_black_24dp" />

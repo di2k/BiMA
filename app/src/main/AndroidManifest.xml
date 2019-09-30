@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".MainActivity" />
+        <activity android:name=".SlideActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".ReLoginActivity"
             android:theme="@style/SplashScreen" />
@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 

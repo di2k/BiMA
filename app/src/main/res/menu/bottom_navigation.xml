@@ -6,9 +6,9 @@
         android:icon="@drawable/ic_bima_revisi"
         android:title="Revisi" />
     <item
-        android:id="@+id/nav_konsultasi"
-        android:icon="@drawable/ic_bima_konsultasi"
-        android:title="Konsultasi" />
+        android:id="@+id/nav_diskusi"
+        android:icon="@drawable/ic_bima_diskusi"
+        android:title="Diskusi" />
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_bima_home"

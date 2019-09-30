@@ -9,6 +9,7 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -22,6 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="id.go.kemenkeu.anggaran.bima.SlideActivity" />
         <activity android:name="id.go.kemenkeu.anggaran.bima.MainActivity" />
         <activity
             android:name="id.go.kemenkeu.anggaran.bima.ReLoginActivity"

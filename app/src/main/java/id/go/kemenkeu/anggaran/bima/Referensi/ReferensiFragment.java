@@ -17,6 +17,7 @@ public class ReferensiFragment extends Fragment {
     public void onResume() {
         super.onResume();
         ((MainActivity) getActivity()).setActionBarTitle("Referensi");
+        ((MainActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     @Nullable

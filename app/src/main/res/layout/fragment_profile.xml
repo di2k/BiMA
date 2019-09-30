@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/pro_logo"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_015"/>
+
+        <TextView
+            android:id="@+id/pro_iduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="630931"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/pro_nmuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Direktorat Jenderal Anggaran"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/pro_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Andrias Hari Prajogo"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/pro_jabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text=" Kepala Bagian Perencanaan dan Keuangan "
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/pro_nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="0816868256"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/pro_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="didik.s@kemenkeu.go.id"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bsre"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:src="@drawable/logo_bsre"/>
+        <TextView
+            android:id="@+id/pro_tte_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Andrias Hari Prajogo"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/pro_tte_nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="1234567890123456"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

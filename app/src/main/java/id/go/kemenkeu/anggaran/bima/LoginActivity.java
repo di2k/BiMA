@@ -94,20 +94,33 @@ public class LoginActivity extends AppCompatActivity {
 
                                     String iduser = object.getString("iduser").trim();
                                     String nmuser = object.getString("nmuser").trim();
-                                    String name = object.getString("name").trim();
+                                    String fullname = object.getString("fullname").trim();
+                                    String nip = object.getString("nip").trim();
+                                    String jabatan = object.getString("jabatan").trim();
+                                    String idusergroup = object.getString("idusergroup").trim();
+                                    String kddept = object.getString("kddept").trim();
+                                    String kdunit = object.getString("kdunit").trim();
+                                    String kdsatker = object.getString("kdsatker").trim();
+                                    String kdlokasi = object.getString("kdlokasi").trim();
+                                    String nohp = object.getString("nohp").trim();
+                                    String email = object.getString("email").trim();
+                                    String profilpic = object.getString("profilpic").trim();
+                                    String tte_nik = object.getString("tte_nik").trim();
+                                    String tte_nama = object.getString("tte_nama").trim();
+                                    String stslogin = object.getString("stslogin").trim();
 
-                                    sessionManager.createSession(iduser, nmuser, name);
+                                    sessionManager.createSession(iduser, nmuser, fullname, nip, jabatan, idusergroup, kddept, kdunit, kdsatker, kdlokasi, nohp, email, profilpic, tte_nik, tte_nama, stslogin);
 
                                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                     intent.putExtra("iduser", iduser);
                                     intent.putExtra("nmuser", nmuser);
-                                    intent.putExtra("name", name);
+                                    intent.putExtra("fullname", fullname);
                                     startActivity(intent);
                                     loading.setVisibility(View.GONE);
                                 }
 
                             } else {
-                                Toast.makeText(LoginActivity.this, "User ID dan Password tidak terdaftar", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "User ID dan Password tidak terdaftar", Toast.LENGTH_LONG).show();
                                 loading.setVisibility(View.GONE);
                                 btn_login.setVisibility(View.VISIBLE);
                             }
@@ -116,7 +129,7 @@ public class LoginActivity extends AppCompatActivity {
                             e.printStackTrace();
                             loading.setVisibility(View.GONE);
                             btn_login.setVisibility(View.VISIBLE);
-                            Toast.makeText(LoginActivity.this, "Error "+ e.toString(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Error : User ID dan Password tidak terdaftar", Toast.LENGTH_LONG).show();
                         }
                     }
                 },
@@ -125,7 +138,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         loading.setVisibility(View.GONE);
                         btn_login.setVisibility(View.VISIBLE);
-                        Toast.makeText(LoginActivity.this, "Error "+ error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "Error : "+ error.toString(), Toast.LENGTH_SHORT).show();
                     }
                 })
         {
