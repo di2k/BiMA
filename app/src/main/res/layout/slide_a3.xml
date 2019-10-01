@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belanja Negara"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/slide_a_r20_3" />
+
+        <LinearLayout
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="4dp"
+                android:textColor="@color/colorAccent"
+                android:text="Peningkatan belanja negara yang lebih berkualitas sebagai upaya menstimulasi perekonomian dan mewujudkan kesejahteraan." />
+            <TableLayout
+                android:paddingLeft="16dp"
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Belanja Pemerintah Pusat"
+                        android:paddingRight="32dp"
+
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:text="1.670,0"
+                        android:paddingRight="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/orangeFlaminggo"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="1.527,2"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Transfer ke Daerah"
+                        android:paddingRight="32dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="858,8"
+                        android:paddingRight="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/orangeFlaminggo"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="814,4"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:text="Defisit Anggaran sebesar 1,76% PDB, diarahkan semakin sehat dan adaptif menghadapi resiko perekonomian."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembiayaan Anggaran"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary" />
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:paddingBottom="4dp"
+                android:text="Strategi Pembiayaan Anggran memperhatikan prinsip kehati-hatian dengan mengendalikan rasio utang dalam batas aman, menjaga komposisi utang domestik, efesiensi biaya utang, serta pemanfaatan utang untuk kegiatan produktif" />
+            <TableLayout
+                android:paddingLeft="16dp"
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Pembiayaan Utang"
+                        android:paddingRight="32dp"
+
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:text="351,9"
+                        android:paddingRight="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/orangeFlaminggo"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="373,9"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Pembiayaan Investasi"
+                        android:paddingRight="32dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="(74,2)"
+                        android:paddingRight="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/orangeFlaminggo"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:gravity="right"
+                        android:text="(75,8)"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

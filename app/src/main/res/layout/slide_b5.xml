@@ -25,7 +25,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="165dp"
-            android:src="@drawable/slide_a_r20_5" />
+            android:src="@drawable/slide_b_a19_5" />
 
         <LinearLayout
             android:paddingLeft="8dp"
@@ -39,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:paddingBottom="4dp"
                 android:textColor="@color/colorAccent"
-                android:text="Pembiyaan utang yang produktif, efesien, memenuhi aspek kehati-hatian serta didukung dengan tata kelola dan sistem manajemen resiko yang baik." />
+                android:text="Dikelola secara hati-hati (prudent) dan produktif sehingga dapat berkontribusi optimal bagi perekonomian dan kesejahteraan masyarakat." />
 
 
         </LinearLayout>
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Arah Kebijakan"
+            android:text="Kebijakan Pembiayaan Utang"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/colorAccent" />
@@ -71,78 +71,55 @@
                 android:layout_height="match_parent"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"
-                android:text="Hati-hati" />
+                android:text="Kehati-hatian" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="@color/colorAccent"
-                android:text="Pengendalian rasio utang dalam batas aman berkisar 29,4 - 30,1 persen PDB untuk mendukung kesinambungan fiskal." />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="4dp"
-                android:textColor="@color/colorAccent"
-                android:text="Menjaga keseimbangan makro dengan menjaga komposisi utang domestik dan valas dalam batas terkendali serta pendalaman pasar keuangan " />
+                android:text="Menjaga rasio utang terhadap PDB dalam batas aman dan diupayakan menurun secara bertahap dalam jangka menengah." />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingTop="8dp"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"
-                android:text="Efisien" />
+                android:text="Efisiensi Biaya Utang" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="@color/colorAccent"
-                android:text="Terciptanya efesiensi biaya utang" />
+                android:text="Mendorong efesiensi biaya utang pada tingkat rasio yang terkendali dan mendukung kesinambungan fiskal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="Produktivitas" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:text="Mendorong pemanfaatan utang untuk kegiatan produktif dalam mendukung pencapaian tearget pembangunan, antara lain melalui investasi dalam rangka akselerasi pembangunan infrastruktur" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="Keseimbangan" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:text="Menjaga komposisi utang dalam batas terkendali untuk pengendalian resiko sekaligus menjaga keseimbangan makro ekonomi." />
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="8dp"
-        android:paddingRight="8dp"
-        android:paddingLeft="8dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Strategi"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:textColor="@color/colorAccent" />
-        <LinearLayout
-            android:padding="8dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textColor="@color/colorAccent"
-                android:text="Meningkatkan efisiensi biaya utang" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="4dp"
-                android:textColor="@color/colorAccent"
-                android:text="Mengoptimalkan peran serta masyarakat dalam pasar obligasi domestik" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="4dp"
-                android:textColor="@color/colorAccent"
-                android:text="Pengelolaan utang secara aktif melalui manajemen kewajiban dan aset" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="4dp"
-                android:textColor="@color/colorAccent"
-                android:text="Mengelola pinjaman luar negeri secara selektif." />
 
-        </LinearLayout>
-    </LinearLayout>
 </LinearLayout>

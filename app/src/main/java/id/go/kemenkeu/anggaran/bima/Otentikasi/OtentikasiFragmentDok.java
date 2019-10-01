@@ -42,7 +42,7 @@ public class OtentikasiFragmentDok extends Fragment {
 
         lstDok = new ArrayList<>();
         lstDok.add(new OtentikasiModel("# 007", "ID Revisi: 2019.630931.003", "Surat Usulan Revisi.pdf","Dok. Pengajuan usulan revisi pergeseran jenis belanja\n" +
-                "dalam ranger penghematan.", R.drawable.file_pdf));
+                "dalam rangka penghematan.", R.drawable.file_pdf));
         lstDok.add(new OtentikasiModel("# 008", "eOffice", "ST Penelaahan Revisi.pdf", "ST Penugasan dalam rangka penelaahan revisi. ", R.drawable.file_pdf));
         lstDok.add(new OtentikasiModel("# 009", "eOffice", "ST Konser.pdf", "ST Penugasan dalam rangka . ", R.drawable.file_pdf));
     }

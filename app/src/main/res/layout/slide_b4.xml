@@ -49,7 +49,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="SDM yang berkualitas" />
+                    android:text="Pembangunan SDM" />
 
                 <TableLayout
                     android:stretchColumns="1"
@@ -65,7 +65,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Peningkatan produktifitas/daya saing SDM" />
+                            android:text="Meningkatkan kualitas dan relefansi pendidikan vokasi" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -76,7 +76,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Perluasan akses pendidikan, peningkatan skill, enterpreneurship, penguasaan ICT, dukungan kegiatan penelitian." />
+                            android:text="Mempersiapkan tenaga pendidik yang adaptif dan responsif" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -87,58 +87,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Percepatan pengurangan stunting, penguatan promitif preventi, melanjutkan program jaminan kesehatan nasional." />
-                    </TableRow>
-
-                </TableLayout>
-            </LinearLayout>
-        </RelativeLayout>
-
-        <RelativeLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-
-            <ImageView
-                android:id="@+id/img_f2"
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:src="@drawable/slide_f2"
-                android:scaleType="fitXY"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/img_f2"
-                android:layout_toRightOf="@+id/img_f2"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorAccent"
-                    android:text="Penguatan Program Perlindungan Sosial" />
-
-                <TableLayout
-                    android:stretchColumns="1"
-                    android:layout_width="match_parent"
-                    android:paddingLeft="4dp"
-                    android:layout_height="wrap_content">
-                    <TableRow>
-                        <TextView
-                            android:textAlignment="center"
-                            android:textColor="@color/orangeFlaminggo"
-                            android:text=" -  " />
-                        <TextView
-                            android:layout_width="0dp"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorAccent"
-                            android:text="Mengakselerasi pengentasan kemiskinan " />
+                            android:text="Memperkuat program promotif dan preventif" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -149,29 +98,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Peningkatan akurasi data dan perbaikan mekanisme penyaluran." />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:textAlignment="center"
-                            android:textColor="@color/orangeFlaminggo"
-                            android:text=" -  " />
-                        <TextView
-                            android:layout_width="0dp"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorAccent"
-                            android:text="Sinergi/Sinkronisasi antar program" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:textAlignment="center"
-                            android:textColor="@color/orangeFlaminggo"
-                            android:text=" -  " />
-                        <TextView
-                            android:layout_width="0dp"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorAccent"
-                            android:text="Subsidi yang tepat sasaran den efektif" />
+                            android:text="Pemerataan akses ke layanan kesehatan " />
                     </TableRow>
 
                 </TableLayout>
@@ -206,7 +133,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Akselerasi Pembangunan Infrastruktur" />
+                    android:text="Penguatan Infrastruktur" />
 
                 <TableLayout
                     android:stretchColumns="1"
@@ -222,7 +149,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Meningkatkan daya saing investasi dan eksport" />
+                            android:text="Infrastruktur pelayanan dasar" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -233,7 +160,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Mendukung transformasi industrialisasi" />
+                            android:text="Infrastruktur konektivitas untuk barang dan jasa" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -244,12 +171,98 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Mendorong K/L menggunakan skema pembiayaan kreatif" />
+                            android:text="Infrastruktur untuk mendorong sektor unggulan" />
                     </TableRow>
 
                 </TableLayout>
             </LinearLayout>
         </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/img_f2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/slide_f2"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_f2"
+                android:layout_toRightOf="@+id/img_f2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:text="Mendorong Efektivitas Program Perlindungan Sosial" />
+
+                <TableLayout
+                    android:stretchColumns="1"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="4dp"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            android:textAlignment="center"
+                            android:textColor="@color/orangeFlaminggo"
+                            android:text=" -  " />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorAccent"
+                            android:text="Sinergi program perlindungan sosial " />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:textAlignment="center"
+                            android:textColor="@color/orangeFlaminggo"
+                            android:text=" -  " />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorAccent"
+                            android:text="Penerima manfaat subsidi dan bansos yang lebih tepat sasaran" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:textAlignment="center"
+                            android:textColor="@color/orangeFlaminggo"
+                            android:text=" -  " />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorAccent"
+                            android:text="Penguatan PKH dan BPNT, serta perluasan sasaran JKN (PBI)" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:textAlignment="center"
+                            android:textColor="@color/orangeFlaminggo"
+                            android:text=" -  " />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/colorAccent"
+                            android:text="Subsidi yang tepat sasaran den efektif" />
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
 
         <RelativeLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -279,7 +292,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Birokrasi yang efesien, melayani, dan bebas korupsi" />
+                    android:text="Birokrasi yang efektif dan efesien" />
 
                 <TableLayout
                     android:stretchColumns="1"
@@ -295,29 +308,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Mendorong efektifitas birokrasi" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:textAlignment="center"
-                            android:textColor="@color/orangeFlaminggo"
-                            android:text=" -  " />
-                        <TextView
-                            android:layout_width="0dp"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorAccent"
-                            android:text="Menjaga tingkat kesejahteraan aparatur dan pensiunan" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:textAlignment="center"
-                            android:textColor="@color/orangeFlaminggo"
-                            android:text=" -  " />
-                        <TextView
-                            android:layout_width="0dp"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorAccent"
-                            android:text="Birokrasi yang berbasis kemajuan ICT" />
+                            android:text="Produktivitas, integritas, dan pelayanan publik" />
                     </TableRow>
 
                 </TableLayout>
@@ -368,7 +359,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Stabilisasi Ekonomi, keamanan, dan politik" />
+                            android:text="Mitigasi resiko bencana" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -379,7 +370,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Mitigasi resiko bencana, pelestarian lingkungan" />
+                            android:text="Pelestarian lingkungan" />
                     </TableRow>
                     <TableRow>
                         <TextView
@@ -390,7 +381,7 @@
                             android:layout_width="0dp"
                             android:textSize="12sp"
                             android:textColor="@color/colorAccent"
-                            android:text="Penguatan fiscal buffer untuk fleksibilitas dan sutainabilitas." />
+                            android:text="Stabilitas ekonomi, keamanan, dan politik" />
                     </TableRow>
 
                 </TableLayout>

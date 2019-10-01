@@ -11,6 +11,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,13 +59,34 @@ public class SlideActivity extends AppCompatActivity {
         btnSkip = (Button) findViewById(R.id.btn_skip);
         btnNext = (Button) findViewById(R.id.btn_next);
 
+        String getApbn = getIntent().getStringExtra("getApbn");
+        Log.e("Return ", "onCreate: " + getApbn );
 //        add slides
-        layouts = new int[] {
-                R.layout.slide1,
-                R.layout.slide2,
-                R.layout.slide3,
-                R.layout.slide4,
-                R.layout.slide5};
+        switch (getApbn) {
+            case "r20":
+                layouts = new int[] {
+                        R.layout.slide_a1,
+                        R.layout.slide_a2,
+                        R.layout.slide_a3,
+                        R.layout.slide_a4,
+                        R.layout.slide_a5};
+                break;
+            case "a19":
+                layouts = new int[] {
+                        R.layout.slide_b1,
+                        R.layout.slide_b2,
+                        R.layout.slide_b3,
+                        R.layout.slide_b4,
+                        R.layout.slide_b5};
+                break;
+            case "r19":
+                layouts = new int[] {
+                        R.layout.slide_c1,
+                        R.layout.slide_c1,
+                        R.layout.slide_c1,
+                        R.layout.slide_c1,
+                        R.layout.slide_c1};
+        }
 
 //        dots slides
         addBottomDots(0);
@@ -143,10 +165,10 @@ public class SlideActivity extends AppCompatActivity {
 
 //            Next/Close button
             if (position == layouts.length - 1) {
-                btnNext.setText("START");
+                btnNext.setText("Close");
                 btnSkip.setVisibility(View.GONE);
             } else {
-                btnNext.setText("NEXT");
+                btnNext.setText("Next");
                 btnSkip.setVisibility(View.VISIBLE);
             }
         }
