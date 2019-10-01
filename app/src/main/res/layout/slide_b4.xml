@@ -13,13 +13,23 @@
         android:paddingRight="8dp"
         android:paddingLeft="8dp">
 
-        <TextView
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fokus Belanja Pemerintah"
-            android:textStyle="bold"
-            android:textSize="24sp"
-            android:textColor="@color/colorPrimaryDark" />
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fokus Belanja pemerintah"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:src="@drawable/slide_b_a19" />
+        </RelativeLayout>
 
         <RelativeLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
