@@ -1,0 +1,32 @@
+package id.go.kemenkeu.anggaran.bima.Referensi;
+
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import java.util.List;
+
+import id.go.kemenkeu.anggaran.bima.R;
+
+public class ReferensiFragmentSBM extends Fragment {
+
+    public ReferensiFragmentSBM() {
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        final View view = inflater.inflate(R.layout.fragment_referensi_sbm, container, false);
+
+
+        return view;
+    }
+}

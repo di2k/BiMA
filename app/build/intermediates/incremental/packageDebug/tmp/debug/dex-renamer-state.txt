@@ -1,0 +1,7 @@
+#Tue Oct 01 19:16:58 ICT 2019
+base.0=C\:\\Users\\jessy\\AndroidStudioProjects\\BiMA\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\jessy\\AndroidStudioProjects\\BiMA\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
