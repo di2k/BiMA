@@ -99,6 +99,14 @@
                                     android:text="0"/>
                             </TableRow>
                         </TableLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="dalam ribuan rupiah"
+                            android:paddingTop="4dp"
+                            android:textSize="10sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/colorAccent" />
                     </LinearLayout>
                 </RelativeLayout>
 
